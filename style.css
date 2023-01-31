@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://i4.hurimg.com/i/hurriyet/75/0x0/63086fa84e3fe10e1488d07c.jpg");
+    padding: 2rem;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+}
+.top-banner{
+    background-image: url(https://www.pngwing.com/tr/free-png-bptmy);
+}
+button{
+    background: none;
+    outline: none;
+    margin-left: 1rem;
+    background-color: rgb(84, 171, 214);
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease .3s;
+}
+button:hover{
+    color: yellow;
+    background-color: red;
+    transform: scale(1.1) ;
+}
+input:hover{
+    transform: scale(1.1) ;
+}
+h1{
+    margin-bottom: 1rem;
+}
+input{
+    background: none;
+    outline: none;
+    margin: 1rem auto;
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.msg{
+    display: block;
+}
+form{
+    text-align: center;
+}
+.nav_logo{
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    width: 20%;
+    max-width: 700px;
+    min-width: 300px;
+}
+/* .page-footer{
+    text-align: right;
+    margin-top: 5rem;
+} */
