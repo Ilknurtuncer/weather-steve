@@ -11,9 +11,7 @@ body{
     background-size: cover;
     font-family: 'Itim', cursive;
 }
-.top-banner{
-    background-image: url(https://www.pngwing.com/tr/free-png-bptmy);
-}
+
 button{
     background: none;
     outline: none;
@@ -50,7 +48,12 @@ form{
     text-align: center;
 }
 
-/* .page-footer{
-    text-align: right;
-    margin-top: 5rem;
-} */
+li{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.city-temp{
+    text-align: center;
+}
