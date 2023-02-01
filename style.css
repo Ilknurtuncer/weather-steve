@@ -47,7 +47,9 @@ input{
 form{
     text-align: center;
 }
-
+li.city{
+text-align: center;
+}
 li{
     text-align: center;
 }
