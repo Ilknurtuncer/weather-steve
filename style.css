@@ -49,13 +49,7 @@ input{
 form{
     text-align: center;
 }
-.nav_logo{
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    width: 20%;
-    max-width: 700px;
-    min-width: 300px;
-}
+
 /* .page-footer{
     text-align: right;
     margin-top: 5rem;
