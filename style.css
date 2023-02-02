@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Itim', cursive;
+   
 }
 
 button{
@@ -47,12 +48,25 @@ input{
 form{
     text-align: center;
 }
-li.city{
-text-align: center;
+ul{
+display: flex;
+justify-content: start;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px; 
+
+
 }
 li{
-    text-align: center;
+    list-style-type: none;
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.397);
+  width: 170px;
+  padding: 10px;
+  border-radius: 10px;
+  
 }
+
 h2{
     text-align: center;
 }
