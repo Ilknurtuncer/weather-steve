@@ -48,17 +48,24 @@ input{
 form{
     text-align: center;
 }
+
+/* justify-content: start; yatayda sol başa aldık */
+/* align-items: center; dikeyde ortaladı */
+ /* flex-wrap: wrap; li leri yan yana getirdik */
+ /* gap: 10px;  li lerin arasına boşluk verdik */
+
 ul{
 display: flex;
 justify-content: start;
 align-items: center;
 flex-wrap: wrap;
 gap: 10px; 
-
-
 }
+
+/* list-style-type: none;      li deki noktayı yok ettik */
+
 li{
-    list-style-type: none;
+    list-style-type: none;      
   text-align: center;
   background-color: rgba(240, 248, 255, 0.397);
   width: 170px;
